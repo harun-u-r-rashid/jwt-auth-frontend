@@ -1,0 +1,63 @@
+body{
+        background-color: black;
+        padding: 0 10px;
+}
+
+section{
+        max-width: 1000px;
+        margin: auto;
+}
+#signInDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+
+}
+
+.btn{
+        border: 2px solid #80808022;
+        padding: 5px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        background-color: white;
+        font-weight: 600;
+}
+
+
+.btn:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+}
+
+.container{
+        margin-top: 80px;
+        border: 1px solid gray;
+}
+
+.profile-containar{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+     
+}
+
+.logout-btn{
+        width: 60px;
+        border: 1px solid #808080d2;
+        padding: 5px 0;
+       
+}
+
+.have-account{
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+}
+
+.have-account a{
+        color: blue;
+        text-decoration: underline;
+}
